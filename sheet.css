@@ -21,6 +21,7 @@ header{
 
     border-bottom: 1px solid #edebeb;
     z-index: 99999;
+    transition: 0.7s ease;
     
 }
 
