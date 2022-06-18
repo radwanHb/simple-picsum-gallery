@@ -1,7 +1,4 @@
 var count = 6;
-
-
-
 function myFunction() {
 
     count++
@@ -9,21 +6,14 @@ function myFunction() {
 
     count ++;
     document.getElementById("container").innerHTML+=element ;
-
-
 }
-
-
-
-
 
  document.getElementById("my-button").addEventListener("click", ()=>{
     myFunction()
 
 })
 
-
-
+// -------------------------------------------------------------------------
 
 
 window.onscroll = function() {myScrollFunction()};
@@ -38,4 +28,3 @@ function myScrollFunction() {
     header.classList.remove("sticky");
   }
 }
-// document.getElementById().addEventListener("m")
