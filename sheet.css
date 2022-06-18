@@ -7,14 +7,16 @@
 
 body{
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
 }
 
 
 
 header{
     background-color: white;
-   
+     height:103px ;
     padding: 50px 0 20px;
     display: flex;
     justify-content: center;
@@ -24,7 +26,7 @@ header{
     transition: 0.7s ease;
     position: fixed;
     width: 100%;
- 
+    top: 0; 
 
 }
 
@@ -50,8 +52,8 @@ header h2{
     padding: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    min-height: 500px;
-    margin-top: 80px;
+    min-height: calc(100vh - 153px);
+    margin-top: 103px;
 }
 
 .card {
@@ -60,7 +62,7 @@ header h2{
     padding: 2px;
     border-radius: 6px;
 
-    margin: 7%;
+    margin: 5%;
     transition: 0.4s ease;
 
     height: fit-content;
