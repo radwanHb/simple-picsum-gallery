@@ -38,7 +38,7 @@ header h2{
 #container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
+    gap: 30px;
     grid-auto-rows: min-content;
     min-height: calc(100vh - 153px);
     padding: 30px;
@@ -48,7 +48,7 @@ header h2{
 .card {
     height: fit-content;
     padding: 2px;
-    margin: 10px;
+    background-color: white;
     border-radius: 6px;
 
     box-shadow: 0 0 8px rgb(73, 73, 73);
@@ -63,9 +63,14 @@ header h2{
 }
 
 .card:hover {
-    opacity: 0.95;
+    
     transform: rotateZ(1.5deg) scale(1.1);
     box-shadow: 0 0 25px rgb(58, 58, 58);
+   
+}
+
+.card:hover img {
+    opacity: 0.95;
 }
 
 
