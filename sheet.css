@@ -39,6 +39,7 @@ header h2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
+    grid-auto-rows: min-content;
     min-height: calc(100vh - 153px);
     padding: 30px;
     margin-top: 103px;
@@ -47,7 +48,7 @@ header h2{
 .card {
     height: fit-content;
     padding: 2px;
-    margin: 5%;
+    margin: 10px;
     border-radius: 6px;
 
     box-shadow: 0 0 8px rgb(73, 73, 73);
